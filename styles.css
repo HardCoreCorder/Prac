@@ -9,12 +9,13 @@
 }
 body{
   margin:0px !important;
-  font-family: italic;
+  font-family: cursive;
 }
 .dropdown-menu>li>a{
   width:100%;
 }
 .navbar-default{
+  padding:5px;
   background-color: #39a5b8;
   margin-left: -1px;
   margin-top: -1px;
@@ -26,16 +27,40 @@ body{
 .navbar-nav >li>a:focus,.navbar-nav >li>a:hover{ 
   background-color: #7b8583 !important;
 }
+.container{
+  padding:0px;  
+  margin:0px;
+  width:100%;
+}
 /*Large Device*/
 @media (min-width:1200px){
-
+.jumbotron{
+  background: url(Jumbo1450.jpg) center no-repeat;
+  border: 0px 0px 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  height:650px;
+  
+}
+.container .jumbotron{
+  padding:0px;
+}
 }
 /*Medium Device*/
 @media (min-width:992px) and (max-width:1199px){
 .navbar-default{
   padding:10px;
-}
 
+}
+.jumbotron{
+  background: url(Jumbo1200.jpg) center no-repeat;
+  height:550px;
+  border: 0px 0px 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+.container .jumbotron{
+ 
+  padding:0px;
+}
 
 }
 /*Small Device*/
@@ -52,13 +77,43 @@ body{
   .dropdown-menu>li>a{
    color:white;
   }
-  
+  .jumbotron{
+    background: url(Jumbo1000.jpg) center no-repeat;
+    height:450px;
+    border: 0px 0px 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+  }
+  .container .jumbotron{
+      padding:0px;
+      margin:0px;
+  }
 }
 /*Extra-Small*/
 @media (max-width:768px){
 .navbar-brand h1{
-
-font-size:5vw;
+font-size:4vw;
 }
-
+.jumbotron{
+  border: 0px 0px 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+.container .jumbotron{
+  padding:0px;
+}
+}
+/*header end*/
+/*row*/
+#help h2{
+  font-family: monospace;
+  font-size:2em;
+  font-weight: bold;
+  border-bottom:1px solid grey;
+}
+#help p{
+  margin:0;
+  padding:0;
+}
+.kids{
+  width:300px;
+  height:300px;
 }
