@@ -74,9 +74,7 @@ body{
   .navbar-brand h1{
     font-size:4vw;
   }
-  .dropdown-menu>li>a{
-   color:white;
-  }
+  
   .jumbotron{
     background: url(Jumbo1000.jpg) center no-repeat;
     height:450px;
@@ -121,6 +119,13 @@ font-size:4vw;
 .bottom-footer .cpy{
   text-align: center !important;
 }
+.dropdown-menu>li>a{
+  color:white !important;
+  text-align: center;
+ }
+ .dropdown-menu>li>a:focus{
+   color:#d95204 !important;
+ }
 }
 /*header end*/
 /*row*/
