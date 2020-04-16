@@ -16,26 +16,27 @@ body{
 }
 .navbar-default{
   padding:5px;
-  background-color: #39a5b8;
+  background-color: #008dc9;
   margin-left: -1px;
   margin-top: -1px;
+  
+}
+.home{
+  color:white;
+  font-size:25px;
 }
 .navbar-nav >li>a,.navbar-brand{
   color:white !important;
   font-weight: bold;
 }
 .navbar-nav >li>a:focus,.navbar-nav >li>a:hover{ 
-  background-color: #7b8583 !important;
+  background-color: #d95204 !important;
 }
-.container{
-  padding:0px;  
-  margin:0px;
-  width:100%;
-}
+
 /*Large Device*/
 @media (min-width:1200px){
 .jumbotron{
-  background: url(Jumbo1450.jpg) center no-repeat;
+  background: url(who-staff_1200x656.jpg) center no-repeat;
   border: 0px 0px 50px #3F0C1F;
   border: 2px solid #3F0C1F;
   height:650px;
@@ -87,6 +88,10 @@ body{
       padding:0px;
       margin:0px;
   }
+  #rd{
+    clear:left;
+  }
+ 
 }
 /*Extra-Small*/
 @media (max-width:768px){
@@ -103,17 +108,34 @@ font-size:4vw;
 }
 /*header end*/
 /*row*/
+.row{
+  padding:20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 #help h2{
   font-family: monospace;
   font-size:2em;
   font-weight: bold;
   border-bottom:1px solid grey;
-}
-#help p{
-  margin:0;
-  padding:0;
+  width:90%;
 }
 .kids{
-  width:300px;
+  margin: 0 0 70px 0;
+  width:90%;
   height:300px;
+  border-radius: 1%;
+}
+.section-heading{
+  padding-top:20px;
+  padding-bottom:10px;  
+  border-bottom:1px solid #e8e8e8;
+}
+.img1{
+  padding-top:25px;
+  padding-bottom:20px;
+}
+.section-info{
+  color:#3c4245;
+  font-size:16px;
+  line-height: 24px;
 }
