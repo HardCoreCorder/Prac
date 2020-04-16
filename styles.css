@@ -89,8 +89,10 @@ body{
     clear:left;
   }
   .bottom-footer{
+    text-align: center !important; 
+  }
+  .bottom-footer .cpy{
     text-align: center !important;
-    
   }
   
 }
